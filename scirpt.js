@@ -1,7 +1,7 @@
 // ---------- Translations ----------
 const translations = {
     km: {
-        heroTitle: 'សិរីមង្គលអាពាហ៍ពិពាហ៍',
+        heroTitle: ' មេីលកាស្រឡាញ់ របស់យើងខ្ញុំ',
         groomLabel: 'កូនប្រុសនាម',
         groomName: 'ភេង',
         brideLabel: 'កូនស្រីនាម',
@@ -53,7 +53,7 @@ const translations = {
         fabToggleLabel: 'បើក/បិទម៉ឺនុយ'
     },
     en: {
-        heroTitle: 'Wedding Celebration',
+        heroTitle: 'Looking At Our Love',
         groomLabel: 'Groom',
         groomName: 'Pheng',
         brideLabel: 'Bride',
