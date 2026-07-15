@@ -241,6 +241,13 @@ section {
   justify-content: center;
   box-shadow: 0 6px 18px rgba(192, 92, 114, 0.15);
 }
+.photo-circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 .photo-circle svg {
   width: 56px;
   height: 56px;
