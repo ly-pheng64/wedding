@@ -133,7 +133,9 @@
         </g>
       </svg>
 
-      <p class="hero-title khmer-display">សិរីមង្គលអាពាហ៍ពិពាហ៍</p>
+      <p class="hero-title khmer-display" data-i18n="heroTitle">
+        សិរីមង្គលអាពាហ៍ពិពាហ៍
+      </p>
 
       <!-- monogram wreath -->
       <div class="monogram-wrap">
@@ -194,8 +196,8 @@
       <!-- couple photos -->
       <div class="couple-row">
         <div class="couple-col">
-          <p class="couple-label">កូនប្រុសនាម</p>
-          <p class="couple-name khmer-display">ផេង</p>
+          <p class="couple-label" data-i18n="groomLabel">កូនប្រុសនាម</p>
+          <p class="couple-name khmer-display" data-i18n="groomName">ផេង</p>
           <div class="photo-circle">
             <svg viewBox="0 0 100 100">
               <circle cx="50" cy="36" r="18" />
@@ -204,8 +206,8 @@
           </div>
         </div>
         <div class="couple-col">
-          <p class="couple-label">កូនស្រីនាម</p>
-          <p class="couple-name khmer-display">អមរ៉ា</p>
+          <p class="couple-label" data-i18n="brideLabel">កូនស្រីនាម</p>
+          <p class="couple-name khmer-display" data-i18n="brideName">អមរ៉ា</p>
           <div class="photo-circle">
             <svg viewBox="0 0 100 100">
               <circle cx="50" cy="36" r="18" />
@@ -215,7 +217,9 @@
         </div>
       </div>
 
-      <p class="date-line khmer-display">ថ្ងៃទី ២៩ ខែមករា ឆ្នាំ២០២៧</p>
+      <p class="date-line khmer-display" data-i18n="dateLine">
+        ថ្ងៃទី ២៩ ខែមករា ឆ្នាំ២០២៧
+      </p>
       <p class="date-sub">2027 / 01 / 29</p>
 
       <svg class="kbach-divider" viewBox="0 0 340 24" style="margin-top: 28px">
@@ -224,51 +228,54 @@
         />
       </svg>
 
-      <p class="invite-title khmer-display">សូមគោរពអញ្ជើញ</p>
-      <p class="invite-body khmer-script">
+      <p class="invite-title khmer-display" data-i18n="inviteTitle">
+        សូមគោរពអញ្ជើញ
+      </p>
+      <p class="invite-body khmer-script" data-i18n="inviteBody">
         មកចូលរួមជាភ្ញៀវកិត្តិយស ក្នុងពិធីមង្គលការ របស់យើងខ្ញុំ ដោយក្តីរាប់អាន
       </p>
     </section>
 
     <!-- COUNTDOWN -->
-    <section>
-      <h2 class="section-title">រាប់ថយក្រោយ</h2>
-      <p class="section-sub">រង់ចាំថ្ងៃដ៏ពិសេសនេះជាមួយគ្នា</p>
+    <section id="section-schedule">
+      <h2 class="section-title" data-i18n="countdownTitle">រាប់ថយក្រោយ</h2>
+      <p class="section-sub" data-i18n="countdownSub">
+        រង់ចាំថ្ងៃដ៏ពិសេសនេះជាមួយគ្នា
+      </p>
       <div class="countdown" id="countdown">
         <div class="count-cell">
           <div class="count-num" id="cd-days">--</div>
-          <div class="count-label">ថ្ងៃ</div>
+          <div class="count-label" data-i18n="labelDays">ថ្ងៃ</div>
         </div>
         <div class="count-cell">
           <div class="count-num" id="cd-hours">--</div>
-          <div class="count-label">ម៉ោង</div>
+          <div class="count-label" data-i18n="labelHours">ម៉ោង</div>
         </div>
         <div class="count-cell">
           <div class="count-num" id="cd-mins">--</div>
-          <div class="count-label">នាទី</div>
+          <div class="count-label" data-i18n="labelMins">នាទី</div>
         </div>
         <div class="count-cell">
           <div class="count-num" id="cd-secs">--</div>
-          <div class="count-label">វិនាទី</div>
+          <div class="count-label" data-i18n="labelSecs">វិនាទី</div>
         </div>
       </div>
     </section>
 
     <!-- GALLERY -->
-    <section>
-      <h2 class="section-title">រូបភាពនៃយើងខ្ញុំ</h2>
-      <p class="section-sub">កន្លែងសម្រាប់បន្ថែមរូបភាពរបស់អ្នកនៅពេលក្រោយ</p>
+    <section id="section-gallery">
+      <h2 class="section-title" data-i18n="galleryTitle">រូបភាពនៃយើងខ្ញុំ</h2>
       <div class="gallery-grid" id="gallery"></div>
     </section>
 
     <!-- VENUE -->
     <section>
-      <h2 class="section-title">ទីតាំងកម្មវិធី</h2>
-      <p class="section-sub">ព័ត៌មានលម្អិតនៅខាងក្រោម</p>
+      <h2 class="section-title" data-i18n="venueTitle">ទីតាំងកម្មវិធី</h2>
+      <p class="section-sub" data-i18n="venueSub">ព័ត៌មានលម្អិតនៅខាងក្រោម</p>
       <div class="venue-card">
-        <p class="venue-name">[ ឈ្មោះទីតាំង ]</p>
-        <p class="venue-address"><br />ថ្ងៃទី ២៩ ខែមករា ឆ្នាំ២០២៧</p>
-        <span class="venue-note">ព័ត៌មានបណ្ដោះអាសន្ន — សូមកែប្រែពេលក្រោយ</span>
+        <p class="venue-address" data-i18n="venueAddress">
+          <br />ថ្ងៃទី ២៩ ខែមករា ឆ្នាំ២០២៧
+        </p>
 
         <div class="map-frame">
           <iframe
@@ -284,10 +291,58 @@
           href="https://maps.google.com/?q=Phnom%20Penh"
           target="_blank"
           rel="noopener"
+          data-i18n="mapLink"
         >
           មើលក្នុង Google Maps ↗
         </a>
       </div>
+    </section>
+
+    <!-- GIFT -->
+    <section id="section-gift">
+      <h2 class="section-title" data-i18n="giftTitle">ចំណងដៃអំណោយ</h2>
+      <p class="section-sub" data-i18n="giftSub">
+        ជូនពរជាព័ត៌មានសម្រាប់ចង់ជូនអំណោយពីចម្ងាយ
+      </p>
+      <div class="venue-card">
+        <!-- <p class="venue-name" data-i18n="giftBank">[ ឈ្មោះធនាគារ ]</p> -->
+        <p class="venue-name" data-i18n="giftBank">[ Pheng / Amara ]</p>
+        <p class="venue-address" data-i18n="giftAccount">
+          លេខគណនី: [ ០០០ ០០០ ០០០ ]<br />ឈ្មោះម្ចាស់គណនី: [ Pheng / Amara ]
+        </p>
+        <!-- <span class="venue-note" data-i18n="giftNote"
+          >ព័ត៌មានបណ្ដោះអាសន្ន — សូមកែប្រែពេលក្រោយ</span
+        > -->
+      </div>
+    </section>
+
+    <!-- GUESTBOOK -->
+    <section id="section-guestbook">
+      <h2 class="section-title" data-i18n="gbTitle">ផ្ដល់ដំណឹងជូនពរ</h2>
+      <p class="section-sub" data-i18n="gbSub">
+        សរសេរសារជូនពរខ្លីៗមួយឲ្យគូរស្នេហ៍
+      </p>
+      <form class="guestbook-form" id="guestbook-form">
+        <input
+          type="text"
+          id="gb-name"
+          data-i18n-placeholder="gbNamePh"
+          placeholder="ឈ្មោះរបស់អ្នក"
+          required
+        />
+        <textarea
+          id="gb-message"
+          rows="3"
+          data-i18n-placeholder="gbMessagePh"
+          placeholder="សរសេរសារជូនពរ..."
+          required
+        ></textarea>
+        <button type="submit" data-i18n="gbSend">ផ្ញើរសារ</button>
+      </form>
+      <div class="guestbook-list" id="guestbook-list"></div>
+      <p class="guestbook-note" data-i18n="gbNote">
+        សារនឹងបាត់ពេលបើកគេហទំព័រឡើងវិញ ព្រោះមិនទាន់មានទិន្នន័យផ្ទុកជាអចិន្ត្រៃយ៍
+      </p>
     </section>
 
     <footer>
@@ -301,11 +356,126 @@
         />
       </svg>
       <p class="footer-names">Pheng &amp; Amara</p>
-      <p class="footer-note khmer-script">
+      <p class="footer-note khmer-script" data-i18n="footerNote">
         សូមអរគុណដែលបានចែករំលែកសេចក្តីរីករាយជាមួយយើងខ្ញុំ
       </p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- FLOATING QUICK MENU -->
+    <div class="fab-overlay" id="fab-overlay"></div>
+    <div class="fab-root">
+      <nav class="fab-menu" id="fab-menu">
+        <button class="fab-item" data-action="language">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M3 5h9M7 3v2m0 0c0 4-2 7-5 9m5-9c1.5 3 3.5 5 6 6M13 21l4-9 4 9m-6.5-3h5"
+            />
+          </svg>
+          <span id="lang-label" data-i18n="fabLanguage">ភាសា</span>
+        </button>
+        <button class="fab-item" data-action="music">
+          <svg viewBox="0 0 24 24">
+            <path d="M9 18V5l11-2v13" />
+            <circle cx="6" cy="18" r="3" />
+            <circle cx="17" cy="16" r="3" />
+          </svg>
+          <span id="music-label" data-i18n="fabMusic">បើកភ្លេង</span>
+        </button>
+        <button class="fab-item" data-action="rsvp">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8" />
+          </svg>
+          <span data-i18n="fabRsvp">RSVP</span>
+        </button>
+        <button class="fab-item" data-action="calendar">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="5" width="18" height="16" rx="2" />
+            <path d="M3 10h18M8 3v4M16 3v4" />
+          </svg>
+          <span data-i18n="fabCalendar">ជូនដំណឹង</span>
+        </button>
+        <button class="fab-item" data-action="schedule">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3 3" />
+          </svg>
+          <span data-i18n="fabSchedule">កម្មវិធី</span>
+        </button>
+        <button class="fab-item" data-action="gallery">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="9" cy="9" r="2" />
+            <path d="M21 15l-5-5-9 9" />
+          </svg>
+          <span data-i18n="fabGallery">រូបថត</span>
+        </button>
+        <button class="fab-item" data-action="gift">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="8" width="18" height="13" rx="1" />
+            <path
+              d="M12 8v13M3 8h18M12 8c-1-3-5-4-5-1s3 1 5 1zM12 8c1-3 5-4 5-1s-3 1-5 1z"
+            />
+          </svg>
+          <span data-i18n="fabGift">ចំណងដៃ</span>
+        </button>
+        <button class="fab-item" data-action="guestbook">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M21 15a4 4 0 0 1-4 4H8l-5 3V6a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"
+            />
+          </svg>
+          <span data-i18n="fabGuestbook">ផ្ដល់មតិ</span>
+        </button>
+      </nav>
+      <button class="fab-toggle" id="fab-toggle" aria-label="បើក/បិទម៉ឺនុយ">
+        <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" /></svg>
+      </button>
+    </div>
+
+    <!-- RSVP MODAL -->
+    <div class="modal-overlay" id="rsvp-overlay">
+      <div class="modal-card">
+        <button class="modal-close" id="rsvp-close" aria-label="Close">
+          &times;
+        </button>
+        <h3 class="khmer-display modal-title">RSVP</h3>
+        <p class="modal-sub" data-i18n="rsvpSub">
+          សូមប្រាប់យើងខ្ញុំដឹងថាតើអ្នកអាចចូលរួមបានទេ
+        </p>
+        <form id="rsvp-form">
+          <input
+            type="text"
+            id="rsvp-name"
+            data-i18n-placeholder="rsvpNamePh"
+            placeholder="ឈ្មោះភ្ញៀវ"
+            required
+          />
+          <select id="rsvp-attending">
+            <option value="yes" data-i18n="rsvpYes">នឹងចូលរួម</option>
+            <option value="no" data-i18n="rsvpNo">
+              សូមអភ័យទោស មិនអាចចូលរួមបានទេ
+            </option>
+          </select>
+          <input
+            type="number"
+            id="rsvp-guests"
+            min="1"
+            max="10"
+            value="1"
+            data-i18n-placeholder="rsvpGuestsPh"
+            placeholder="ចំនួនភ្ញៀវ"
+          />
+          <button type="submit" data-i18n="rsvpSubmit">បញ្ជាក់ចម្លើយ</button>
+        </form>
+        <p class="modal-thanks" id="rsvp-thanks"></p>
+      </div>
+    </div>
+
+    <audio id="bgm" loop></audio>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="scirpt.js"></script>
   </body>
 </html>
