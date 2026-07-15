@@ -3,9 +3,9 @@ const translations = {
     km: {
         heroTitle: ' មេីលកាស្រឡាញ់ របស់យើងខ្ញុំ',
         groomLabel: 'កូនប្រុសនាម',
-        groomName: 'ភេង',
+        groomName: 'ផេង',
         brideLabel: 'កូនស្រីនាម',
-        brideName: 'អាម៉ារ៉ា',
+        brideName: 'អមរ៉ា',
         dateLine: 'ថ្ងៃទី ២៩ ខែមករា ឆ្នាំ២០២៧',
         inviteTitle: 'សូមគោរពអញ្ជើញ',
         inviteBody: 'មកចូលរួមជាភ្ញៀវកិត្តិយស ក្នុងពិធីមង្គលការ របស់យើងខ្ញុំ ដោយក្តីរាប់អាន',
@@ -54,9 +54,9 @@ const translations = {
     },
     en: {
         heroTitle: 'Looking At Our Love',
-        groomLabel: 'Groom',
+        groomLabel: 'BF',
         groomName: 'Pheng',
-        brideLabel: 'Bride',
+        brideLabel: 'GF',
         brideName: 'Amara',
         dateLine: 'January 29, 2027',
         inviteTitle: "You're Invited",
