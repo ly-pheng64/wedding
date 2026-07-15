@@ -134,15 +134,12 @@ function toggleLanguage() {
 }
 // ---------- Gallery ----------
 const photos = [
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
-    '1.jpg',
+    '2.jpg',
+    '3.jpg',
+    '4.jpg',
+    '5.jpg',
+    '6.jpg',
+
 ];
 
 const grid = document.getElementById('gallery');
@@ -156,26 +153,55 @@ function renderGallery(lang) {
     });
 }
 
-// ---------- Countdown to 2027-01-29 00:00 local time ----------
-const target = new Date('2027-01-29T00:00:00');
+// // ---------- Countdown to 2027-01-29 00:00 local time ----------
+// const target = new Date('2027-01-29T00:00:00');
+// function toKhmerDigits(n) {
+//     const km = ['០', '១', '២', '៣', '៤', '៥', '៦', '៧', '៨', '៩'];
+//     return String(n).split('').map(d => km[d] ?? d).join('');
+// }
+// function updateCountdown() {
+//     const now = new Date();
+//     let diff = target - now;
+//     if (diff < 0) diff = 0;
+//     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+//     const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+//     const mins = Math.floor((diff / (1000 * 60)) % 60);
+//     const secs = Math.floor((diff / 1000) % 60);
+//     const fmt = (n) => currentLang === 'km' ? toKhmerDigits(n) : String(n);
+//     document.getElementById('cd-days').textContent = fmt(days);
+//     document.getElementById('cd-hours').textContent = fmt(String(hours).padStart(2, '0'));
+//     document.getElementById('cd-mins').textContent = fmt(String(mins).padStart(2, '0'));
+//     document.getElementById('cd-secs').textContent = fmt(String(secs).padStart(2, '0'));
+// }
+// updateCountdown();
+// setInterval(updateCountdown, 1000);
+
+// ---------- Count up from 2025-01-09 00:00 local time ----------
+const startDate = new Date('2025-01-09T00:00:00');
+
 function toKhmerDigits(n) {
     const km = ['០', '១', '២', '៣', '៤', '៥', '៦', '៧', '៨', '៩'];
     return String(n).split('').map(d => km[d] ?? d).join('');
 }
+
 function updateCountdown() {
     const now = new Date();
-    let diff = target - now;
+    let diff = now - startDate; // elapsed time since start
     if (diff < 0) diff = 0;
+
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
     const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
     const mins = Math.floor((diff / (1000 * 60)) % 60);
     const secs = Math.floor((diff / 1000) % 60);
+
     const fmt = (n) => currentLang === 'km' ? toKhmerDigits(n) : String(n);
+
     document.getElementById('cd-days').textContent = fmt(days);
     document.getElementById('cd-hours').textContent = fmt(String(hours).padStart(2, '0'));
     document.getElementById('cd-mins').textContent = fmt(String(mins).padStart(2, '0'));
     document.getElementById('cd-secs').textContent = fmt(String(secs).padStart(2, '0'));
 }
+
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
