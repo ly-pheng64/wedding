@@ -140,6 +140,7 @@ const photos = [
     '4.jpg',
     '5.jpg',
     '6.jpg',
+    '9.jpg',
 
 ];
 
